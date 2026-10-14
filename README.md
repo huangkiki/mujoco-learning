@@ -1,12 +1,14 @@
-# MuJoCo Atlas
+# MuJoCo Learning
 
 **理解 MuJoCo 的建模、控制、物理机制与源码实现。**
 
-[English](README.en.md) · [系列学习首页](https://github.com/huangkiki/sim-atlas) · [入门导读](docs/guide.md) · [完整课程路线](docs/curriculum.md) · [源码地图](docs/source-map.md) · [版本](docs/versions.md) · [开发任务](docs/roadmap.md) · [六仓总看板](https://github.com/users/huangkiki/projects/2)
+[English](README.en.md) · [系列学习首页](https://github.com/huangkiki/sim-learning) · [入门导读](docs/guide.md) · [读懂 Solver 配置](docs/solver-reading-guide.md) · [完整课程路线](docs/curriculum.md) · [源码地图](docs/source-map.md) · [版本](docs/versions.md) · [开发任务](docs/roadmap.md) · [六仓总看板](https://github.com/users/huangkiki/projects/2)
 
-这是 **[Sim Atlas · 仿真图谱](https://github.com/huangkiki/sim-atlas)** 的独立社区学习仓库，重点覆盖 MJCF、mjSpec/mjModel/mjData、驱动器与约束、flex/IPC、原生与 GPU 后端。
+这是 **[Sim Learning · 仿真学习](https://github.com/huangkiki/sim-learning)** 的独立社区学习仓库，重点覆盖 MJCF、mjSpec/mjModel/mjData、驱动器与约束、flex/IPC、原生与 GPU 后端。
 
 提供两条完整路线：**A 应用路线**从对象与建模走向控制、机器人、传感器、学习接口与数据；**B 原理与源码路线**解释动力学、接触模型、求解器、积分、观测及扩展。已交付首篇导读、E1 建模/坐标/状态/时间、E2 驱动/机器人/任务、E3 动力学/接触/求解/力观测、E4 传感器/相机/渲染、E5 批量/学习/数据、E6 插件/flex/IPC/后端专题与固定版本源码地图，完整课程仍在开发。
+
+面向已有 VLA、WAM、RL 经验的工程师与硕博，新增[从 DexLab 表格读懂 MuJoCo 配置](docs/solver-reading-guide.md)：区分非线性 CG/Newton/PGS、摩擦锥、积分器、历史版本和执行路径，结合夹持诊断与带答案练习进入现有深入课程。[本次验证与迁移范围](docs/validation/learning-migration.md)独立记录；E7 保持暂停。
 
 ## 从这里开始
 
@@ -36,6 +38,6 @@ E6 已完成 B6 扩展与 B7 源码综合追踪：插件状态/生命周期、fl
 
 ## 维护与来源
 
-每章保留原生 API、版本化来源、易错点和阅读练习。各 Atlas 仓库独立，不需要安装其他 Atlas 或 DexLab。教程进度和 DexLab 实验证据覆盖分别记录，不据此给引擎排名。
+每章保留原生 API、版本化来源、易错点和阅读练习。各 Learning 仓库独立，不需要安装其他 Learning 仓库或 DexLab。教程进度和 DexLab 实验证据覆盖分别记录，不据此给引擎排名。
 
 [官方源码基线](https://github.com/google-deepmind/mujoco/tree/9ea3cdfcae93bf2cc4dc0e1a1627c5a39a1e06e5) · [贡献](CONTRIBUTING.md) · [来源与许可](THIRD_PARTY.md)

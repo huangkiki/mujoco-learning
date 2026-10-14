@@ -1,4 +1,4 @@
-# Sim Atlas engineering
+# Sim Learning engineering
 
 - Use autodev for implementation and issue/PR work; one executor at a time. Recover existing work before starting a duplicate.
 - Keep native APIs visible. Use the smallest direct design; no cross-engine wrapper or framework.

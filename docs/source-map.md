@@ -1,4 +1,4 @@
-# mujoco-atlas 固定版本源码入口
+# mujoco-learning 固定版本源码入口
 
 阅读基线：`9ea3cdfcae93bf2cc4dc0e1a1627c5a39a1e06e5`。以下入口已核对官方 Git 树与文件内容身份；不是全仓审查或运行验收记录。
 
