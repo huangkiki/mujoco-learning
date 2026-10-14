@@ -1,5 +1,7 @@
 # MuJoCo autodev 路线
 
+本次独立切片由 [Sim Learning #1](https://github.com/huangkiki/sim-learning/issues/1) 跟踪：品牌与现行导航迁移、新增[Solver 配置导读](solver-reading-guide.md)。[验证范围](validation/learning-migration.md)保留历史记录和未运行边界；**E7 继续暂停**，本次授权不恢复完整安装、原生运行或全路线审校。
+
 一个阶段对应一个可恢复的 GitHub Issue；总看板统一管理六仓，仓库保留本引擎的原生设计。先查同题 Issue/PR 和实际合入状态，再继续工作。
 
 | 阶段 | 交付切片 | 依赖 | 状态 |
@@ -11,7 +13,7 @@
 | E4 | 传感器、渲染与可视化专题 | E1 | [课程与静态验收已交付](validation/e4.md)；无传感/图像/headless运行验收 |
 | E5 | 批量、学习接口与数据专题 | E2、E4 | [课程与静态验收已交付](validation/e5.md)；无批量/JIT/训练/数据生成运行验收 |
 | E6 | 引擎特色、扩展与能力边界专题 | E3 | [课程与静态验收已交付](validation/e6.md)；无插件/形变/IPC/导数/设备运行验收 |
-| E7 | A0完整安装、双路线课程审校与 DexLab 复用入口 | E2–E6 | 待开发 |
+| E7 | A0完整安装、双路线课程审校与 DexLab 复用入口 | E2–E6 | 暂停；不随本次改名与导读恢复 |
 
 E0 交付的是导读与导航，不是所有专题。E1–E6 逐个展开目录中的知识点，E7 按完整课程契约审校。依赖必须以实际文档或合入提交核实，不能仅凭 Issue 关闭。
 

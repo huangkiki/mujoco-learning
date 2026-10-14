@@ -1,10 +1,12 @@
-# MuJoCo Atlas
+# MuJoCo Learning
 
 Understand MuJoCo through native APIs, physics concepts and versioned source code.
 
-[中文](README.md) · [Series home](https://github.com/huangkiki/sim-atlas) · [Introductory guide](docs/guide.md) · [Curriculum](docs/curriculum.md) · [Source map](docs/source-map.md) · [Versions](docs/versions.md) · [Roadmap](docs/roadmap.md) · [Project tracker](https://github.com/users/huangkiki/projects/2)
+[中文](README.md) · [Series home](https://github.com/huangkiki/sim-learning) · [Introductory guide](docs/guide.md) · [Solver reading guide](docs/solver-reading-guide.md) · [Curriculum](docs/curriculum.md) · [Source map](docs/source-map.md) · [Versions](docs/versions.md) · [Roadmap](docs/roadmap.md) · [Project tracker](https://github.com/users/huangkiki/projects/2)
 
-Part of **[Sim Atlas](https://github.com/huangkiki/sim-atlas)**, an independent community learning series with two complete planned tracks: applications (modeling, control, robotics, sensing and data) and principles/source (dynamics, contact, solvers, integration and extensions).
+Part of **[Sim Learning](https://github.com/huangkiki/sim-learning)**, an independent community learning series with two complete planned tracks: applications (modeling, control, robotics, sensing and data) and principles/source (dynamics, contact, solvers, integration and extensions).
+
+The new [solver reading guide](docs/solver-reading-guide.md) is written in Chinese with an English summary for engineers and graduate researchers experienced in VLA, WAM and RL. It separates nonlinear CG/Newton/PGS, friction cones, integration, historical versions and unresolved execution provenance, with a grasping diagnosis example and answered exercises. [Migration validation](docs/validation/learning-migration.md) records source/static checks separately; E7 remains paused.
 
 The introductory guide, pinned source map and E1 chapters are available in Chinese: [modeling and frames](docs/modeling-and-frames.md) and [state and time](docs/state-and-time.md). E1 covers A1/A2 and the foundations of B0/B4, including coordinate/inertia conventions, state ownership, snapshots, sampling phases and integration semantics. E2 now covers [actuation and control](docs/actuation-and-control.md), [robotics and kinematics](docs/robotics-and-kinematics.md), and [task interfaces](docs/task-interfaces.md), including multi-input actuator blocks, force clamping, bounded local IK and observation-driven task transitions. The full course is in development.
 
